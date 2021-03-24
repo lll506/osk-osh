@@ -11,7 +11,7 @@ from maskrcnn_benchmark.modeling.utils import cat
 from maskrcnn_benchmark.layers import smooth_l1_loss
 from maskrcnn_benchmark.structures.boxlist_ops import cat_boxlist
 
-from maskrcnn_benchmark.structures.keypoint import keypoints_to_heat_map, keypoints_to_heat_map_2x, keypoints_to_heat_map_rotate, keypoints_to_heat_map_rotate_1
+from maskrcnn_benchmark.structures.keypoint import keypoints_to_heat_map, keypoints_to_heat_map_rotate
 
 
 def Keypoints(keypoints, device=None):
